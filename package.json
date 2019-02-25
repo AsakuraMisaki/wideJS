@@ -1,0 +1,39 @@
+{
+  "name": "widejs",
+  "version": "1.0.0",
+  "description": "widejs, javascript, vue, webpack, spa, nodejs, webapp, vscode, extendable application, misaki-cooperation, npm",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --config ./build/webpack.dev.config.js",
+    "build": "webpack --inline --config ./build/webpack.base.config.js"
+  },
+  "keywords": [
+    "widejs",
+    "javascript",
+    "vue",
+    "webpack",
+    "spa",
+    "nodejs",
+    "webapp",
+    "vscode",
+    "extendable",
+    "application",
+    "misaki-cooperation",
+    "npm"
+  ],
+  "author": "misaki-cooperation",
+  "license": "ISC",
+  "dependencies":{
+    "vue": "^2.5.2",
+    "vue-router": "^3.0.1",
+    "webpack": "^4.1.0"
+  },
+  "devDependencies":{
+    "vue-loader": "^15.6.4",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-cli": "3.2.3",
+    "vue-template-compiler": "^2.5.2",
+    "vue-style-loader": "^4.0.0",
+    "css-loader": "^2.1.0"
+  }
+}
